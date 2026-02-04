@@ -1,0 +1,22 @@
+
+# Ignore raw datasets
+data/raw/
+data/processed/*.csv
+
+# Ignore model checkpoints (optional: keep small ones)
+models/*.pt
+models/*.pth
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore MLflow local runs
+mlruns/
+
+# OS files
+.DS_Store
+Thumbs.db
